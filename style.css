@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(105, 2, 105);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    width:300px ;
+    background-color:white;
+    margin-top:10%  ;
+    border-radius:20px ;
+   
+}
+
+header h2{
+    font-size:20px ;
+    font-weight: 900;
+    font-style:normal; 
+    
+}
+header p{
+    font-size:20px ;
+    font-weight: 500;
+    margin-top:2px ;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+ 
+}
+
+input{
+    width:90%;
+    height:40px ;
+    /* border-radius:10px ; */
+    padding:3px;
+}
+button{
+    width:90% ;
+    height:50px ;
+    /* border-radius:10px ; */
+    margin-top:20px ;
+    background-color:rgb(140, 4, 140);
+    color:white ;
+    cursor:pointer;
+}
+#qrcode{
+width:250px ;
+display: flex;
+justify-content: center;
+text-align: center;
+margin:20px 50px 20px 30px ;
+opacity: 1;
+transition: opacity 0.5 ease;
+}
+#qrimage{
+margin-top:20px;
+margin-bottom: 20px;
+padding:10;
+
+}
